@@ -339,7 +339,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/medias/banner/6.jpg)');
+    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/medias/banner/3.jpg)');
 </script>
 
 
@@ -358,10 +358,52 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/Linux/" title="Linux: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Linux" style="background-color: #F9EBEA;">Linux
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Hadoop/" title="Hadoop: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Hadoop" style="background-color: #F5EEF8;">Hadoop
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"Linux","weight":1,"link":"/tags/Linux/"},{"text":"Hadoop","weight":1,"link":"/tags/Hadoop/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
@@ -380,7 +422,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">73</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             

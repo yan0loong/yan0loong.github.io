@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-21T13:22:04.040Z</updated>
+  <updated>2020-11-11T14:22:52.465Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Centos7搭建Hadoop集群</title>
+    <link href="http://yoursite.com/2020/11/09/centos7-da-jian-hadoop-ji-qun/"/>
+    <id>http://yoursite.com/2020/11/09/centos7-da-jian-hadoop-ji-qun/</id>
+    <published>2020-11-09T14:19:43.000Z</published>
+    <updated>2020-11-11T14:22:52.465Z</updated>
+    
+    <summary type="html">
+    
+      在Centos7上搭建Hadoop2.x集群
+    
+    </summary>
+    
+    
+      <category term="大数据" scheme="http://yoursite.com/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+      <category term="Hadoop" scheme="http://yoursite.com/tags/Hadoop/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

@@ -346,7 +346,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/medias/banner/6.jpg)');
+    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/yan0loong/yan0loong.github.io/medias/banner/3.jpg)');
 </script>
 
 
@@ -362,13 +362,23 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">1</a></span>
+    <span class="count"><a href="/">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -382,13 +392,23 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">1</a></span>
+    <span class="count"><a href="/">2</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
+<div class="statis">
+    <span class="count"><a href="/categories">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
@@ -520,7 +540,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2019-04","2019-05","2019-06","2019-07","2019-08","2019-09","2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04"]
+            data: ["2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08","2020-09","2020-10","2020-11"]
         },
         yAxis: {
             type: 'value',
@@ -530,7 +550,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,1],
+                data: [0,0,0,0,0,1,0,0,0,0,0,0,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -572,7 +592,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"大数据","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -596,7 +616,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Linux","Hadoop"]
             }
         ],
         yAxis: [
@@ -609,7 +629,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -778,6 +798,18 @@
         <div class="sub-title center-align"><i class="fa fa-book"></i>&nbsp;&nbsp;其他技能</div>
         <div class="tag-chips center-align">
             
+            
+            <a href="/tags/Linux/">
+                <span class="chip center-align waves-effect waves-light chip-default">Linux</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Hadoop/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hadoop</span>
+            </a>
+            
+            
         </div>
     </div>
     
@@ -848,7 +880,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">73</span>&nbsp;字
+                class="white-color">1.4k</span>&nbsp;字
             
             
             
